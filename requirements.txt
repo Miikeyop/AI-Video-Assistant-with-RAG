@@ -1,33 +1,17 @@
-# UI
 streamlit
-
-# Environment variables
 python-dotenv
-
-# YouTube/audio input
 yt-dlp
 pydub
-ffmpeg-python
-
-# Local Whisper transcription
+audioop-lts
 openai-whisper
 torch
-
-# LangChain + Mistral
 langchain
 langchain-core
-langchain-community
 langchain-mistralai
-
-# RAG pipeline
-chromadb
-langchain-chroma
 langchain-huggingface
-sentence-transformers
-
-# Text processing / structured output
-pydantic
-numpy
-
-# Export results
-fpdf2
+langchain-chroma
+langchain-text-splitters
+chromadb
+sentence-transformers==3.3.1
+huggingface-hub==0.25.2
+protobuf==3.20.3
