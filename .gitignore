@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local generated folders
+downloads/
+uploaded_files/
+chroma-db/
+
+# Whisper / audio temp files
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.aac
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.pytest_cache/
